@@ -1,0 +1,43 @@
+header {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+header #header-wrapper {
+  width: 100%;
+  max-width: 1024px;
+  position: relative;
+  margin: auto;
+  border: 1px solid #fff;
+}
+header #header-wrapper #logo {
+  height: 0;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-bottom: 30%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-image: url("../img/logo.svg");
+}
+header #header-wrapper .chilli {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-image: url("../img/chilli.svg");
+}
+header #header-wrapper #chilli-1 {
+  width: 20%;
+  padding-bottom: 54%;
+  transform: rotate(0deg);
+  bottom: 0;
+  left: 0;
+}
+#apps-ribbon {
+  display: block;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  background: #000;
+}
