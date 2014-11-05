@@ -54,7 +54,8 @@ header #header-wrapper #logo {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  background-image: url("../img/logo.svg");
+  background-image: url("../img/logo-fallback.png");
+  background-image: url("../img/logo.svg"), none;
 }
 header #header-wrapper #social-links {
   text-align: center;
@@ -87,7 +88,8 @@ header #header-wrapper .chilli {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  background-image: url("../img/chilli.svg");
+  background-image: url("../img/chilli-fallback.png");
+  background-image: url("../img/chilli.svg"), none;
   pointer-events: none;
 }
 header #header-wrapper #chilli-1 {
