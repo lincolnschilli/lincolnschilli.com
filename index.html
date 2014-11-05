@@ -12,7 +12,7 @@
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 		<link rel="icon" href="favicon.ico" type="image/x-icon">
 
-		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/main.css">
 	</head>
 
@@ -21,17 +21,70 @@
 			<div id="header-wrapper">
 				<div id="logo"></div>
 				<div class="chilli" id="chilli-1"></div>
+				<div class="chilli" id="chilli-2"></div>
+				<div class="chilli" id="chilli-3"></div>
+				<div class="chilli" id="chilli-4"></div>
+				<div class="chilli" id="chilli-5"></div>
+				<div class="chilli" id="chilli-6"></div>
+				<div class="chilli" id="chilli-7"></div>
+				<div class="chilli" id="chilli-8"></div>
+				<div class="chilli" id="chilli-9"></div>
+				<div class="chilli" id="chilli-10"></div>
+				<div class="chilli" id="chilli-11"></div>
+				<div class="chilli" id="chilli-12"></div>
+				<div class="chilli" id="chilli-13"></div>
+				<div class="chilli" id="chilli-14"></div>
+				<div class="chilli" id="chilli-15"></div>
+				<div class="chilli" id="chilli-16"></div>
+				<div id="social-links">
+					<a class="social-link" id="twitter" href="https://twitter.com/lincolnschilli">Follow us in Twitter</a>
+					<a class="social-link" id="facebook" href="https://www.facebook.com/lincolnschilli">Like us in Facebook</a>
+					<a class="social-link" id="android" href="https://play.google.com/store/apps/developer?id=Lincoln%27s+Chilli">Get it on Google Play</a>
+				</div>
 			</div>
 		</header>
-		<span id="apps-ribbon">OUR APPS</span>
 
-		<article>
-			<h2>Quick Pick</h2>
+		<span id="ribbon">OUR APPS</span>
 
-			<p>This is not the traditional and boring Memory Game, it is a Speed Game. A free app that challenges your basic skills: agility, precision, memory and concentration. The game includes multiple difficulty modes, which makes it not only ideal for kids, but also for elderly and young alike!<p>
+		<div id="apps" class="container">
 
-			<p>Enjoy this hand-crafted adventure where you will meet new characters in every level: Droppy, Oniony, Clocky and more. Share it with your friends and have fun!<p>
-		</article>
+			<article class="app-info row">
+				<div class="col-xs-3">
+					<img class="app-icon" src="img/apps/quickpick.png">
+				</div>
+				<div class="col-xs-9">
+					<h1>Quick Pick</h1>
+
+					<p>This is not the traditional and boring Memory Game, it is a Speed Game. A free app that challenges your basic skills: agility, precision, memory and concentration. The game includes multiple difficulty modes, which makes it not only ideal for kids, but also for elderly and young alike!<p>
+
+					<p>Enjoy this hand-crafted adventure where you will meet new characters in every level: Droppy, Oniony, Clocky and more. Share it with your friends and have fun!<p>
+
+					<a href="https://play.google.com/store/apps/details?id=com.lincolnschilli.quickpick">
+						<img alt="Android app on Google Play" src="https://developer.android.com/images/brand/en_app_rgb_wo_60.png" />
+					</a>
+				</div>
+			</article>
+
+			<article class="app-info row">
+				<div class="col-xs-12">
+					<h1>More Comming Soon...</h1>
+				</div>
+			</article>
+
+		</div>
+
+		<!-- StyleSheet CDN Fallbacks - http://theericbutler.wordpress.com/2014/03/20/how-to-fall-back-to-a-local-bootstrap-css-file-if-the-cdn-is-down/ -->
+		<div id="bootstrap-cdn-check" class="hidden" style="height:1px;"></div>
+		<script>
+			var cdnCheck = document.getElementById("bootstrap-cdn-check");
+			if (cdnCheck.offsetWidth > 0 && cdnCheck.offsetHeight > 0) {
+				var child = document.createElement('link');
+				child.rel = 'stylesheet';
+				child.type = 'text/css';
+				child.href = 'css/fallbacks/bootstrap.min.css';
+				document.getElementsByTagName('head')[0].appendChild(child);
+			}
+		</script>
 
 	</body>
 </html>
