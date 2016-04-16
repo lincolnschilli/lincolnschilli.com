@@ -81,7 +81,7 @@ header #header-wrapper #social-links #facebook {
 }
 header #header-wrapper #social-links #android {
   width: 22.8%;
-  background-image: url("https://developer.android.com/images/brand/en_generic_rgb_wo_60.png");
+  background-image: url("https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png");
 }
 header #header-wrapper .chilli {
   position: absolute;
@@ -290,6 +290,9 @@ header #header-wrapper #chilli-16 {
   padding: 3%;
   border: 1px solid #ccc;
   border-radius: 6px;
+}
+#apps .app-info .links img {
+  max-width: 225px;
 }
 #apps .app-info h1 {
   margin-top: 0;
