@@ -3,10 +3,9 @@
 
 # TEAM
 
-    Noel De Martin -- Founder -- @NoelDeMartin
+    Noel De Martin -- https://noeldemartin.com
 
 
 # TECHNOLOGY COLOPHON
 
     HTML5, CSS3
-    Normalize.css
